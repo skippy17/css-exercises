@@ -8,6 +8,8 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 32px;
+  font-weight: 900;
 }
 
 .footer {
@@ -25,4 +27,57 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li{
+  margin-bottom: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 24px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar {
+flex-shrink: 0;
+padding: 16px;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
+}
+.card {
+  padding: 16px;
+  margin: 16px;
+  width: 300px;
+  
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
